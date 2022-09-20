@@ -7,7 +7,7 @@
         <div class="mb-12 xl:mb-0">
           <nuxt-link to="/coupons" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
             <button
-              class="bg-blue-700 hover:bg-blue-700 border-blue-700 hover:border-blue-700 text-lg border-4 text-white py-1 px-2 rounded-full w-full"
+              class="bg-blue-700 hover:bg-transparent border-blue-700 hover:border-blue-500 hover:color-blue-500 text-lg border-4 text-white py-1 px-2 rounded-full w-full"
             >
               Browse
             </button>
@@ -52,7 +52,7 @@
         <img
           alt="Hero"
           class="rounded shadow-xl"
-          src="https://source.unsplash.com/random/720x400"
+          src="https://images.unsplash.com/photo-1616046229478-9901c5536a45?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG9tZSUyMGRlY29yfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
         />
       </div>
     </div>
