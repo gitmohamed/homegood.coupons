@@ -5,6 +5,21 @@
         <div v-html="$md.render(welcomeText)" class="home__welcome markdown" />
 
         <div class="mb-12 xl:mb-0">
+          <nuxt-link to="/coupons" class="block font-medium px-4 py-1 md:p-2 lg:px-4">
+            <button
+              class="bg-blue-700 hover:bg-blue-700 border-blue-700 hover:border-blue-700 text-lg border-4 text-white py-1 px-2 rounded-full w-full"
+            >
+              Browse
+            </button>
+          </nuxt-link>
+          <br />
+          <br />
+          <br />
+          <small>
+            Deals and coupons sent to directly to your inbox.
+            <br />
+            Sign up for the Weekly letter.
+          </small>
           <h4 v-if="isSignedUp">Thank you - we'll be in touch shortly.</h4>
 
           <form
@@ -25,7 +40,7 @@
             />
 
             <button
-              class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded"
+              class="flex-shrink-0 bg-blue-500 hover:bg-blue-700 border-blue-500 hover:border-blue-700 text-sm border-4 text-white py-1 px-2 rounded-full"
               type="submit"
             >
               Sign Up
