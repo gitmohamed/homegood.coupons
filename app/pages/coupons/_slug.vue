@@ -42,7 +42,7 @@ export default class BlogPost extends Vue {
     }
 
     try {
-      const post = require(`@/content/blog/${params.slug}.json`);
+      const post = require(`@/content/coupons/${params.slug}.json`);
 
       return {
         post,
